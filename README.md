@@ -18,7 +18,7 @@ Prerequisites 📋
 
 Before running the bot, ensure you have the following:
 
-    Python 3.8 or higher installed on your system.
+    Python 3.12.
     A Discord account to create and manage your bot.
 
 Getting Started 🚀
