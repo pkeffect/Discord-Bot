@@ -1,6 +1,6 @@
 # Discord-Bot
 
-## Froked Changes
+## Forked Changes
 - Added support for building a python environment docker image
 - Added support for running via docker compose 
 - Migrated discord bot tokin to an external .env 
