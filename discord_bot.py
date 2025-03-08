@@ -3,7 +3,7 @@ from discord.ext import commands
 import os
 from dotenv import load_dotenv
 
-# Replace 'YOUR_TOKEN_HERE' with your actual Discord bot token
+# This should be in your .env
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
