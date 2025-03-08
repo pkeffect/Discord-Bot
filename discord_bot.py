@@ -1,11 +1,14 @@
 import discord
 from discord.ext import commands
+import os
+from dotenv import load_dotenv
 
 # Replace 'YOUR_TOKEN_HERE' with your actual Discord bot token
-TOKEN = 'YOUR_TOKEN_HERE'
+load_dotenv()
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 # Define intents
-intents = discord.Intents.default()
+intents = discord.Intents.all()
 intents.messages = True  # Enable the messages intent
 
 # Set up the bot with a command prefix and intents

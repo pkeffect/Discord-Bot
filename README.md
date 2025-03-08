@@ -1,4 +1,10 @@
 # Discord-Bot
+
+## FORKED 
+- Added support for building a python environment docker image
+- Added support for running via docker compose 
+- Migrated discord bot tokin to an external .env 
+
 Discord Bot Project 🤖
 
 Welcome to the Discord Bot Project! This repository contains a simple yet powerful Discord bot built using Python and the discord.py library. The bot is designed to enhance your Discord server experience by providing various interactive features.
