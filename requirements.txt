@@ -1,4 +1,9 @@
-python-dotenv
-discord
-requests
+# List python packages to include in your build here
+aiohttp
 aiosqlite
+customtkinter
+discord
+ollama
+pillow
+python-dotenv
+requests
