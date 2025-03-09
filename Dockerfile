@@ -15,4 +15,4 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
 # Run app.py when the container launches
-CMD ["python", "monolith_discord.py"]
+CMD ["python", "discord_bot.py"]
